@@ -1,0 +1,21 @@
+{
+    "name": "nanuly/iamport",
+    "description": "Iamport Rest Api Modules can be installed as a composer.",
+    "type": "library",
+    "require": {
+        "php": ">=5.6.4"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "ngy",
+            "email": "ngy@nanuly.kr"
+        }
+    ],
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4" : {
+            "Nanuly\\Iamport\\" : "src"
+        }
+    }
+}
