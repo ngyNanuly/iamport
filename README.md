@@ -5,7 +5,7 @@ https://github.com/iamport/iamport-rest-client-php
 
 ### composer
     "require": {
-        "nanuly/iamport" : "~0.1"
+        "nanuly/iamport" : "dev-master"
     },
     "repositories": [
         {
@@ -16,3 +16,9 @@ https://github.com/iamport/iamport-rest-client-php
 
 ### usage
   use \Nanuly\Iamport\Iamport;
+
+
+### latest
+  https://github.com/iamport/iamport-rest-client-php
+  Latest commit 16ee16a  on 4 Dec 2017
+

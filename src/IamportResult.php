@@ -1,13 +1,16 @@
-<?php 
+<?php
+
 namespace Nanuly\Iamport;
 
-class IamportResult {
+class IamportResult
+{
     public $success = false;
     public $data;
     public $error;
-    public function __construct($success=false, $data=null, $error=null) {
+    public function __construct($success=false, $data=null, $error=null)
+    {
         $this->success = $success;
-        $this->data = $data;
-        $this->error = $error;
+        $this->data    = $data;
+        $this->error   = $error;
     }
 }
