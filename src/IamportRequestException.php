@@ -2,7 +2,7 @@
 
 namespace Nanuly\Iamport;
 
-class IamportRequestException extends Exception
+class IamportRequestException extends \Exception
 {
     protected $response;
     public function __construct($response)
